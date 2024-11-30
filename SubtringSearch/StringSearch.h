@@ -1,6 +1,6 @@
-/*
-Boyer–Moore string-search algorithm.
+п»ї/*
+BoyerвЂ“Moore string-search algorithm.
 */
 
-//Алгоритм Бойера-Мура
+//РђР»РіРѕСЂРёС‚Рј Р‘РѕР№РµСЂР°-РњСѓСЂР°
 size_t BM(const char* string, const char* pattern);

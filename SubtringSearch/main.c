@@ -1,4 +1,4 @@
-#define _CRT_SECURE_NO_WARNINGS
+п»ї#define _CRT_SECURE_NO_WARNINGS
 
 #include "StringSearch.h"
 #include <stdio.h>
@@ -8,7 +8,7 @@ extern const size_t NOT_A_POSITION;
 
 int main()
 {
-	//Поиск подстроки:
+	//РџРѕРёСЃРє РїРѕРґСЃС‚СЂРѕРєРё:
 	char str[] = "admaddadadmadmad";
 	char pattern[] = "dad";
 
@@ -20,7 +20,7 @@ int main()
 
 	size_t position = BM(str, pattern);
 
-	//Печать массива:
+	//РџРµС‡Р°С‚СЊ РјР°СЃСЃРёРІР°:
 	size_t n = strlen(str);
 
 	for (size_t i = 0; i < n; ++i)
@@ -35,7 +35,7 @@ int main()
 	}
 	printf("\n");
 
-	//Печать позиции:
+	//РџРµС‡Р°С‚СЊ РїРѕР·РёС†РёРё:
 	if (position != NOT_A_POSITION)
 	{
 		for (size_t i = 0; i < position; ++i)
